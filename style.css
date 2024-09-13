@@ -64,3 +64,40 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+section.assignment-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+div.assignment-module {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  max-width: 400px;
+  text-align: left;
+}
+
+div.assignment-module h2 {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+div.assignment-module p {
+  color: #555;
+  font-size: 1rem;
+}
+
+div.assignment-module a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+div.assignment-module a:hover {
+  text-decoration: underline;
+}
