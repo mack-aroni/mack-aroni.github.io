@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  text-align: center; /* Center-align all the text */
 }
 
 header {
@@ -11,25 +12,56 @@ header {
   padding: 1rem;
 }
 
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin: 1rem 0;
+  text-align: center;
 }
 
 nav ul li {
-  display: inline;
-  margin-right: 1rem;
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove the last right margin */
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
 }
 
 section {
-  margin: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
+h2 {
   color: #333;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
